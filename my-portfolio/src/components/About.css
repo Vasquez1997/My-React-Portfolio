@@ -1,0 +1,60 @@
+/**
+ * File: About.css
+ * Author: Jhon Vasquez
+ * Student ID: 300901949
+ * Date: September 28, 2024
+ */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .about-info {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .resume-section {
+    text-align: center;
+  }
+  
+  .resume-section a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f4511e;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-section a:hover {
+    background-color: #d1401b;
+  }
+  

@@ -1,0 +1,74 @@
+/**
+ * File: Navbar.css
+ * Author: Jhon Vasquez
+ * Student ID: 300901949
+ * Date: September 28, 2024
+ */
+
+nav {
+    background-color: #A56238; 
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f4f4f4;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #be6a25; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px; 
+    height: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul li {
+    display: inline;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  

@@ -1,0 +1,72 @@
+/**
+ * File: Contact.css
+ * Author: Jhon Vasquez
+ * Student ID: 300901949
+ * Date: September 28, 2024
+ */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form h2 {
+    color: #d4823c; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #d4823c; 
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #d4823c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    color: #d4823c; 
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
